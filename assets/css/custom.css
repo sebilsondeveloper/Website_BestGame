@@ -1,0 +1,8 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+.map {
+	height: 360px;
+    width: 100%;
+	background: #ddd;
+	margin-bottom: 0px;
+}
