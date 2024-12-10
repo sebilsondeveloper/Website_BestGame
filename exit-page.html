@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Saída</title>
+    <script>
+        window.onload = function mensagemDeSaida() {
+            const agora = new Date();
+            const horas = agora.getHours();
+            let mensagem;
+
+            if (horas < 12) {
+                mensagem = "Tenha um ótimo dia!";
+            } else if (horas < 18) {
+                mensagem = "Tenha uma ótima tarde!";
+            } else {
+                mensagem = "Tenha uma ótima noite!";
+            }
+
+            alert("Até logo! " + mensagem);
+            // Opcional: Redirecionar para outra página após exibir o alerta
+            window.location.href = "https://www.google.com/";
+        };
+    </script>
+</head>
+<body>
+    <h1>Você saiu do site!</h1>
+    <p>Obrigado por visitar. Até breve!</p>
+</body>
+</html>
+
