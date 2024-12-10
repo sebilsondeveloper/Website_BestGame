@@ -1,5 +1,15 @@
 /* PLACE YOU CUSTOM STYLES IN THIS FILE */
 
+.play-button{
+	padding: .5em 1em;
+	border: none;
+	cursor: pointer;
+	font-size: .9em;
+	margin-top: 1em;
+	color: #222;
+	background-color: #ccc;
+}
+
 .map {
 	height: 360px;
     width: 100%;
